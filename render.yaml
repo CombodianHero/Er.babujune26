@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: saini-drm-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER
+        sync: false
+      - key: CREDIT
+        sync: false
+      - key: AUTH_USERS
+        sync: false
+      - key: TOTAL_USERS
+        sync: false
+      - key: API_URL
+        sync: false
+      - key: API_TOKEN
+        sync: false
+      - key: PORT
+        value: "8080"

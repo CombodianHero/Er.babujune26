@@ -1,0 +1,46 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+*.session
+*.session-journal
+device_private_key.txt
+device_client_id_blob
+youtube_cookies.txt
+
+# ── Downloads / temp ──────────────────────────────────────────────────────────
+downloads/
+*.mp4
+*.mkv
+*.webm
+*.mp3
+*.m4a
+*.pdf
+*.zip
+thumb.jpg
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs.txt
+*.log
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
